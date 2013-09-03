@@ -3,7 +3,7 @@
 
 #include "SFML/Graphics.hpp"
 #include "SFML/Window.hpp"
-#include "Box2D\Box2D.h"
+#include "Box2D/Box2D.h"
 #include "Player.h"
 #include "Enemy.h"
 #include "staticEntity.h"

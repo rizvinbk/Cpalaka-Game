@@ -13,11 +13,9 @@ public:
 	void setSensor(b2World*, uint16 categoryBits, uint16 maskBits);
 
 	AnimationObject anim;
-	bool onGround;
+	bool onGround,isJumping;
 private:
 	sf::Texture walkleft, walkright;
-	b2Fixture* sensor;
-	bool isJumping;
 	bool dir[4];//up down left right
 };
 

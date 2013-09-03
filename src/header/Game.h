@@ -1,8 +1,8 @@
 #pragma once
 
-#include "SFML\Graphics.hpp"
-#include "SFML\Window.hpp"
-#include "Box2D\Box2D.h"
+#include "SFML/Graphics.hpp"
+#include "SFML/Window.hpp"
+#include "Box2D/Box2D.h"
 #include "Animation.h"
 #include "AnimationObject.h"
 #include "Level.h"
